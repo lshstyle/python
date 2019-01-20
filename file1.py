@@ -1,5 +1,5 @@
 try:
-    with open(r'E:/pythonProject/file/123.txt', mode='a') as file:
+    with open(r'E:/pythonProject/test/file/123.txt', mode='a') as file:
         content = file.read()
         print(content)
 except FileNotFoundError:

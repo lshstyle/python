@@ -6,7 +6,7 @@ data =[
     {"first_name":"BSSS", "last_name":"HBS"},
     {"first_name":"Mark", "last_name":"Watney"}
 ]
-with open(r'E:/pythonProject/file/123.csv', mode='w') as file:
+with open(r'E:/pythonProject/test/file/123.csv', mode='w') as file:
     writer =csv.DictWriter(
         f=file,
         fieldnames=['first_name', 'last_name'],
